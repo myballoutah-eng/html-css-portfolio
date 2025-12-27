@@ -11125,7 +11125,7 @@ font-family: "Homemade Apple", cursive;
 .about-section img{
   border-radius:50%;
   width:300px;
-  height:300px
+  height:300px;
 }
 .Skills-section {
   padding: 10rem 0;
@@ -11135,7 +11135,7 @@ font-family: "Homemade Apple", cursive;
   font-size: 4rem;
 }
 
-.Skillssection .featured-text {
+.Skills-section .featured-text {
   padding: 2rem;
 }
 
@@ -11145,12 +11145,12 @@ font-family: "Homemade Apple", cursive;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.Skills-section .project-text {
+.Skills-section .Skills-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .Skills-section .project-text {
+  .Skills-section .Skills-text {
     padding: 5rem;
   }
 }
