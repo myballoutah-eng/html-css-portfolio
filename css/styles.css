@@ -11118,30 +11118,39 @@ font-family: "Homemade Apple", cursive;
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
-}
-.about-section p {
+  background: linear-gradient(to bottom, black, white);
+  color: black;
   margin-bottom: 5rem;
 }
-
-.projects-section {
-  padding: 10rem 0;
+.about-section img{
+  border-radius:50%;
+  width:300px;
+  height:300px
 }
-.projects-section .featured-text {
+.Skills-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, white, black);
+}
+.Skills-section h1{
+  font-size: 4rem;
+}
+
+.Skillssection .featured-text {
   padding: 2rem;
 }
+
 @media (min-width: 992px) {
-  .projects-section .featured-text {
+  .Skills-section .featured-text {
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
   }
 }
-.projects-section .project-text {
+.Skills-section .project-text {
   padding: 3rem;
   font-size: 90%;
 }
 @media (min-width: 992px) {
-  .projects-section .project-text {
+  .Skills-section .project-text {
     padding: 5rem;
   }
 }
